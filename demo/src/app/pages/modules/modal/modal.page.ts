@@ -232,7 +232,7 @@ this.modalService
     template: exampleTemplateTemplate
 })
 export class ModalExampleTemplate {
-    @ViewChild("modalTemplate")
+    @ViewChild("modalTemplate", { static: true })
     public modalTemplate:ModalTemplate<{ data:string }, string, string>;
 
     public dynamicContent:string = "Example of dynamic content.";
