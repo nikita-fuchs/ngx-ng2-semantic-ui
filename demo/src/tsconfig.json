@@ -5,5 +5,12 @@
     "types": [
       "prismjs"
     ]
-  }
+  },
+  "files": [
+    "main.ts",
+    "polyfills.ts"
+  ],
+  "include": [
+    "demo/src/**/*.d.ts"
+  ]
 }
