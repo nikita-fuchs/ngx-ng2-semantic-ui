@@ -50,7 +50,7 @@ export abstract class CalendarView implements AfterViewInit, OnDestroy {
     }
 
     private _documentKeyDownListener:() => void;
-
+    //@ts-ignore
     constructor(renderer:Renderer2, viewType:CalendarViewType, ranges:CalendarRangeService) {
         this._type = viewType;
         this.ranges = ranges;
