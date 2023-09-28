@@ -266,7 +266,7 @@ interface IConfirmModalContext {
     template: exampleComponentModalTemplate
 })
 export class ConfirmModalComponent {
-    constructor(public modal:SuiModal<IConfirmModalContext, void, void>) {}
+    constructor(public modal:SuiModal<IConfirmModalContext, void>) {}
 }
 
 export class ConfirmModal extends ComponentModalConfig<IConfirmModalContext, void, void> {
