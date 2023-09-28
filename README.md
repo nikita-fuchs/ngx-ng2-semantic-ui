@@ -28,7 +28,7 @@
 
 Semantic UI Angular Integrations, written in pure Angular - **no JQuery required**.
 ## Important:
-This is an intended endeavour to upgrade the awesome [ng2-semantic-ui](https://github.com/edcarroll/ng2-semantic-ui) to later versions of Angular. For time reasons, the code is only tested for successful compilation of the library and demo page.
+This is an intended endeavour to upgrade the awesome [ng2-semantic-ui](https://github.com/edcarroll/ng2-semantic-ui) to later versions of Angular. For time reasons, the code is only tested for successful compilation of the library and demo page. This code is provided absolutely free of warranty. If you find a bug, feel free to contribute a fix.
 
 | Angular   |      Package      |  Branch |
 |----------|:-------------:|------:|
