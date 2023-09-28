@@ -1,6 +1,6 @@
 {
   "name": "ngx-ng2-semantic-ui",
-  "version": "9.0.0",
+  "version": "9.0.1",
   "description": "Angular Semantic UI Components",
   "repository": {
     "type": "git",
@@ -43,9 +43,9 @@
   },
   "dependencies": {
     "tslib": "^1.10.0"
-},
+  },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.901.15",
+    "@angular-devkit/build-angular": "^0.901.15",
     "@angular-devkit/build-ng-packagr": "~0.901.15",
     "@angular/animations": "^9.1.13",
     "@angular/cli": "~9.1.15",
@@ -81,7 +81,7 @@
     "karma-min-reporter": "^0.1.0",
     "karma-phantomjs-launcher": "^1.0.4",
     "karma-remap-istanbul": "~0.4.0",
-    "ng-packagr": "^9.0.0",
+    "ng-packagr": "^9.1.5",
     "popper.js": "^1.14.0",
     "prismjs": "^1.29.0",
     "rxjs": "^6.6.7",
