@@ -33,6 +33,7 @@ This is an intended endeavour to upgrade the awesome [ng2-semantic-ui](https://g
 | Angular   |      Package      |  Branch |
 |----------|:-------------:|------:|
 | Angular 9  |  9.x.x | angular-9 |
+| Angular 10  |  10.x.x | angular-10 |
 
 ## Introduction
 
