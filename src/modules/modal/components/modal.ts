@@ -41,6 +41,10 @@ import { ModalConfig, ModalSize } from "../classes/modal-config";
     styles: [``]
 })
 export class SuiModal<T, U> implements OnInit, AfterViewInit {
+
+    //Angular 9 Migration fixes:
+    context: any;
+    
     @Input()
     // Determines whether the modal can be closed with a close button, clicking outside, or the escape key.
     public isClosable:boolean;
