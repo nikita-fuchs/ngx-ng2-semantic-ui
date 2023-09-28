@@ -48,7 +48,7 @@ See the [Documentation](https://edcarroll.github.io/ng2-semantic-ui) for install
 
 This package is upgraded to each respective major Angular version. Besides successful building of the library and demo page, no extensive testing is done. 
 
-* [Angular](https://angular.io) (^9.0.0)
+* [Angular](https://angular.io) (^10.0.0 or check corresponding branches / versions on NPM)
 * [Semantic UI CSS](http://semantic-ui.com/) (^2.3.1) (jQuery is **not** required)
 
 ## Component Support
