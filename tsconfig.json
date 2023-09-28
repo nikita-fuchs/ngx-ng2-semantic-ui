@@ -6,7 +6,7 @@
     "outDir": "temp",
     "sourceMap": true,
     "declaration": false,
-    "module": "esnext",
+    "module": "es2020",
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -21,7 +21,7 @@
     "paths": {
       "ng2-semantic-ui": ["dist"],
       "ng2-semantic-ui/locales": ["dist/locales"],
-      "ng2-semantic-ui/*": ["dist/*"],
+      "ng2-semantic-ui/*": ["dist/*"]
     }
   }
 }
