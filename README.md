@@ -7,7 +7,7 @@
 
 <!-- Name -->
 <h1 align="center">
-  <a href="https://nikita-fuchs.github.com/ng2-semantic-ui">ng2-semantic-ui</a>
+  <a href="https://nikita-fuchs.github.com/ng2-semantic-ui">ngx-ng2-semantic-ui</a>
 </h1>
 
 <!-- Badges -->
