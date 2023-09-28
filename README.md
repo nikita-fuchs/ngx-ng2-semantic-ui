@@ -1,13 +1,13 @@
 <!-- Logo -->
 <p align="center">
-  <a href="https://edcarroll.github.io/ng2-semantic-ui/">
+  <a href="https://nikita-fuchs.github.com/ng2-semantic-ui/">
     <img height="128" width="238" src="https://raw.githubusercontent.com/edcarroll/ng2-semantic-ui/master/demo/src/assets/logo.png">
   </a>
 </p>
 
 <!-- Name -->
 <h1 align="center">
-  <a href="https://edcarroll.github.io/ng2-semantic-ui">ng2-semantic-ui</a>
+  <a href="https://nikita-fuchs.github.com/ng2-semantic-ui">ng2-semantic-ui</a>
 </h1>
 
 <!-- Badges -->
@@ -18,15 +18,21 @@
   <a href="https://travis-ci.org/edcarroll/ng2-semantic-ui">
     <img alt="Travis CI" src="https://img.shields.io/travis/edcarroll/ng2-semantic-ui.svg?style=flat-square" />
   </a>
-  <a href="https://www.npmjs.com/package/ng2-semantic-ui">
+  <a href="https://www.npmjs.com/package/ngx-ng2-semantic-ui">
     <img alt="npm" src="https://img.shields.io/npm/v/ng2-semantic-ui.svg?style=flat-square" />
   </a>
-  <a href="https://www.npmjs.com/package/ng2-semantic-ui">
+  <a href="https://www.npmjs.com/package/ngx-ng2-semantic-ui">
     <img alt="monthly downloads" src="https://img.shields.io/npm/dm/ng2-semantic-ui.svg?style=flat-square" />
   </a>
 </p>
 
 Semantic UI Angular Integrations, written in pure Angular - **no JQuery required**.
+## Important:
+This is an intended endeavour to upgrade the awesome [ng2-semantic-ui](https://github.com/edcarroll/ng2-semantic-ui) to later versions of Angular. For time reasons, the code is only tested for successful compilation of the library and demo page.
+
+| Angular   |      Package      |  Branch |
+|----------|:-------------:|------:|
+| Angular 9  |  9.x.x | angular-9 |
 
 ## Introduction
 
@@ -40,7 +46,9 @@ See the [Documentation](https://edcarroll.github.io/ng2-semantic-ui) for install
 
 ## Dependencies
 
-* [Angular](https://angular.io) (^6.0.0)
+This package is upgraded to each respective major Angular version. Besides successful building of the library and demo page, no extensive testing is done. 
+
+* [Angular](https://angular.io) (^9.0.0)
 * [Semantic UI CSS](http://semantic-ui.com/) (^2.3.1) (jQuery is **not** required)
 
 ## Component Support
