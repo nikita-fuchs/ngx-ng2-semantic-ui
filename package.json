@@ -45,9 +45,9 @@
     "tslib": "^2.0.0"
   },
   "devDependencies": {
-    "ng-packagr": "^10.1.0",
     "@angular-devkit/build-angular": "^0.1002.4",
     "@angular-devkit/build-ng-packagr": "~0.1002.4",
+    "@angular-devkit/core": "^16.2.4",
     "@angular/animations": "^10.2.5",
     "@angular/cli": "~10.2.4",
     "@angular/common": "^10.2.5",
@@ -82,6 +82,7 @@
     "karma-min-reporter": "^0.1.0",
     "karma-phantomjs-launcher": "^1.0.4",
     "karma-remap-istanbul": "~0.4.0",
+    "ng-packagr": "^10.1.0",
     "popper.js": "^1.14.0",
     "prismjs": "^1.29.0",
     "rxjs": "^6.6.7",
