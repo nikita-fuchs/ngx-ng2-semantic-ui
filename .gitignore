@@ -21,6 +21,7 @@
 .vscode
 
 # misc
+/.angular/cache
 /.sass-cache
 /connect.lock
 /coverage/*
@@ -48,4 +49,3 @@ demo/dist
 bundles
 .history
 node_modules_backup.zip
-.angular
