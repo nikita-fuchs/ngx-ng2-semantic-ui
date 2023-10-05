@@ -1,6 +1,6 @@
 {
   "name": "ngx-ng2-semantic-ui",
-  "version": "12.0.0",
+  "version": "13.0.0",
   "description": "Angular Semantic UI Components",
   "repository": {
     "type": "git",
@@ -42,6 +42,7 @@
     "build:prod": "npm run lib:build:prod && npm run demo:build:prod"
   },
   "dependencies": {
+    "@types/ws": "^8.5.4",
     "tslib": "^2.0.0"
   },
   "devDependencies": {
@@ -62,7 +63,6 @@
     "@types/extend": "^3.0.0",
     "@types/jasmine": "~3.8.0",
     "@types/jasminewd2": "~2.0.3",
-    "@types/node": "^12.11.1",
     "@types/prismjs": "~1.4.18",
     "bowser": "^1.7.2",
     "codelyzer": "^6.0.0",
