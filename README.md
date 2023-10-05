@@ -34,7 +34,8 @@ This is an intended endeavour to upgrade the awesome [ng2-semantic-ui](https://g
 |----------|:-------------:|------:|
 | Angular 9  |  9.x.x | angular-9 |
 | Angular 10  |  10.x.x | angular-10 |
-
+| Angular 11  |  11.x.x | angular-11 |
+| Angular 12  |  12.x.x | angular-12 |
 ## Introduction
 
 Angular and jQuery don't go together - this is the fundamental principal of this library. It provides Angular component versions of the Semantic UI modules, so that you don't need to add jQuery to your app.
