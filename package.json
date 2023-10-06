@@ -46,10 +46,9 @@
     "tslib": "^2.0.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^13.3.11",
     "@angular-devkit/core": "^16.2.4",
     "@angular/animations": "^13.4.0",
-    "@angular/cli": "~13.3.11",
+    "@angular/cli": "^14.2.13",
     "@angular/common": "^13.4.0",
     "@angular/compiler": "^13.4.0",
     "@angular/compiler-cli": "^13.4.0",
