@@ -46,8 +46,8 @@
     "tslib": "^2.0.0"
   },
   "devDependencies": {
-    "@angular-devkit/core": "^16.2.4",
     "@angular-devkit/build-angular": "^14.2.13",
+    "@angular-devkit/core": "^16.2.4",
     "@angular/animations": "^14.3.0",
     "@angular/cli": "^14.2.13",
     "@angular/common": "^14.3.0",
@@ -61,8 +61,6 @@
     "@angular/router": "^14.3.0",
     "@types/estree": "^1.0.0",
     "@types/extend": "^3.0.0",
-    "@types/jasmine": "~3.8.0",
-    "@types/jasminewd2": "~2.0.3",
     "@types/prismjs": "~1.4.18",
     "bowser": "^1.7.2",
     "codelyzer": "^6.0.0",
