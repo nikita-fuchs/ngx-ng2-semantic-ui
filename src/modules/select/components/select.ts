@@ -46,6 +46,9 @@ export class SuiSelect<T, U> extends SuiSelectBase<T, U> implements ICustomValue
     @Output()
     public selectedOptionChange:EventEmitter<U>;
 
+    @Input()
+    public isSearchable:any ;
+
     private _placeholder:string;
 
     @Input()
