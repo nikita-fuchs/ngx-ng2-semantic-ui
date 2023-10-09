@@ -48,3 +48,4 @@ demo/dist
 bundles
 .history
 node_modules_backup.zip
+.angular
