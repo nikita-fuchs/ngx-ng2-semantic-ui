@@ -44,8 +44,6 @@ export * from "./modules/tabs/components/tabset"
 export * from "./modules/tabs/directives/tab-header"
 export * from "./modules/tabs/directives/tab-content"
 
-import { NgModule } from "@angular/core";
-
 export * from "./behaviors/internal";
 export * from "./collections/internal";
 export * from "./modules/internal";

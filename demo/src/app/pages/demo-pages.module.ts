@@ -2,7 +2,7 @@ import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { RouterModule } from "@angular/router";
-import { SuiModule } from "ng2-semantic-ui";
+import * as SuiModule from "ng2-semantic-ui";
 import { DemoComponentsModule } from "../components/demo-components.module";
 
 import { GettingStartedPage } from "./getting-started/getting-started.page";
@@ -40,7 +40,24 @@ import { TestPage } from "./development/test/test.page";
         FormsModule,
         ReactiveFormsModule,
         RouterModule,
-        SuiModule,
+        SuiModule.SuiAccordionModule,
+        SuiModule.SuiSelectModule,
+        SuiModule.SuiSidebarModule,
+        SuiModule.SuiMessageModule,
+        SuiModule.SuiPaginationModule,
+        SuiModule.SuiCheckboxModule,
+        SuiModule.SuiCollapseModule,
+        SuiModule.SuiDatepickerModule,
+        SuiModule.SuiDimmerModule,
+        SuiModule.SuiDropdownModule,
+        SuiModule.SuiModalModule,
+        SuiModule.SuiPopupModule,
+        SuiModule.SuiProgressModule,
+        SuiModule.SuiRatingModule,
+        SuiModule.SuiSearchModule,
+        SuiModule.SuiAccordionModule,
+        SuiModule.SuiTransitionModule,
+        SuiModule.SuiTabsModule,
         DemoComponentsModule
     ],
     declarations: [

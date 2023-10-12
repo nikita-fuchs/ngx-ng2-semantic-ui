@@ -8,7 +8,6 @@ import { DemoRoutingModule } from "./app.routing";
 import { DemoComponentsModule } from "./components/demo-components.module";
 import { DemoModalsModule } from "./modals/demo-modals.module";
 import { DemoPagesModule } from "./pages/demo-pages.module";
-
 import { AppComponent } from "./app.component";
 
 @NgModule({
