@@ -1,7 +1,8 @@
 import {
     Injectable, ApplicationRef, ComponentFactoryResolver, Injector, ComponentRef,
-    ReflectiveInjector, Provider, Type, ViewContainerRef, TemplateRef
+    Provider, Type, ViewContainerRef, TemplateRef
 } from "@angular/core";
+//TODO: solve using https://medium.com/@a.yurich.zuev/angular-how-staticinjector-replaces-reflectiveinjector-6f303d2798f6
 
 export interface IImplicitContext<T> {
     $implicit?:T;
@@ -17,14 +18,24 @@ export class SuiComponentFactory {
         // Resolve a factory for creating components of type `type`.
         const factory = this._componentFactoryResolver.resolveComponentFactory(type as Type<T>);
 
+        // Outdated 1 start 
         // Resolve and create an injector with the specified providers.
-        const injector = ReflectiveInjector.resolveAndCreate(
+        /* const injector = ReflectiveInjector.resolveAndCreate(
             providers,
             this._injector
-        );
+        ); */
+        // Outdated 1 end
+
+        // Outdated Replacement 1 start
+        const injector = Injector.create({ 
+            providers: providers,
+            parent: this._injector
+        });
+        // Outdated Replacement 1 end
 
         // Create a component using the previously resolved factory & injector.
         const componentRef = factory.create(injector);
+
 
         return componentRef;
     }
