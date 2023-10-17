@@ -3,7 +3,7 @@ import { CommonModule } from "@angular/common";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { RouterModule } from "@angular/router";
 
-import { SuiAccordion, SuiModule } from "ng2-semantic-ui";
+import { SuiModule } from "ng2-semantic-ui";
 import { DemoComponentsModule } from "../components/demo-components.module";
 
 import { GettingStartedPage } from "./getting-started/getting-started.page";
@@ -41,7 +41,7 @@ import { TestPage } from "./development/test/test.page";
         FormsModule,
         ReactiveFormsModule,
         RouterModule,
-        ...SuiModule,
+        SuiModule,
         DemoComponentsModule
     ],
     declarations: [

@@ -1,33 +1,33 @@
-export * from "./accordion/public";
-export * from "./checkbox/public";
-export * from "./collapse/public";
-export * from "./datepicker/public";
-export * from "./dimmer/public";
-export * from "./dropdown/public";
-export * from "./modal/public";
-export * from "./popup/public";
-export * from "./progress/public";
-export * from "./rating/public";
-export * from "./search/public";
-export * from "./select/public";
-export * from "./sidebar/public";
-export * from "./tabs/public";
-export * from "./transition/public";
+import * as SuiAccordionModule from "./accordion/public";
+import * as SuiCheckboxModule from "./checkbox/public";
+import * as SuiCollapseModule from "./collapse/public";
+import * as SuiDatepickerModule from "./datepicker/public";
+import * as SuiDimmerModule from "./dimmer/public";
+import * as SuiDropdownModule from "./dropdown/public";
+import * as SuiModal from "./modal/public";
+import * as SuiPopupModule from "./popup/public";
+import * as SuiProgressModule from "./progress/public";
+import * as SuiRatingModule from "./rating/public";
+import * as SuiSearchModule from "./search/public";
+import * as SuiSelectModule from "./select/public";
+import * as SuiSidebarModule from "./sidebar/public";
+import * as SuiTabsModule from "./tabs/public";
+import * as SuiTransitionModule from "./transition/public";
 
-import { SuiAccordionModule } from "./accordion/public";
-import { SuiCheckboxModule } from "./checkbox/public";
-import { SuiCollapseModule } from "./collapse/public";
-import { SuiDatepickerModule } from "./datepicker/public";
-import { SuiDimmerModule } from "./dimmer/public";
-import { SuiDropdownModule } from "./dropdown/public";
-import { SuiModal } from "./modal/public";
-import { SuiPopupModule } from "./popup/public";
-import { SuiProgressModule } from "./progress/public";
-import { SuiRatingModule } from "./rating/public";
-import { SuiSearchModule } from "./search/public";
-import { SuiSelectModule } from "./select/public";
-import { SuiSidebarModule } from "./sidebar/public";
-import { SuiTabsModule } from "./tabs/public";
-import { SuiTransitionModule } from "./transition/public";
-
-export let SuiModule = [SuiAccordionModule, SuiCheckboxModule, SuiCollapseModule, SuiDatepickerModule, SuiDimmerModule, SuiDropdownModule, SuiModal, SuiPopupModule, SuiProgressModule, SuiRatingModule, SuiSearchModule, SuiSelectModule, SuiSidebarModule, SuiTabsModule, SuiTransitionModule]
+export let SuiModule = {
+    SuiAccordionModule,
+    SuiCheckboxModule,
+    SuiCollapseModule,
+    SuiDatepickerModule,
+    SuiDimmerModule,
+    SuiDropdownModule,
+    SuiModal,
+    SuiPopupModule,
+    SuiProgressModule,
+    SuiRatingModule,
+    SuiSearchModule,
+    SuiSelectModule,
+    SuiSidebarModule,
+    SuiTabsModule,
+    SuiTransitionModule
+};
