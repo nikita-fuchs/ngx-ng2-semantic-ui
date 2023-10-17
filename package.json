@@ -4,12 +4,12 @@
   "description": "Angular Semantic UI Components",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nikita-fuchs/ng2-semantic-ui"
+    "url": "https://github.com/nikita-fuchs/ngx-ng2-semantic-ui"
   },
   "bugs": {
-    "url": "https://github.com/nikita-fuchs/ng2-semantic-ui/issues"
+    "url": "https://github.com/nikita-fuchs/ngx-ng2-semantic-ui/issues"
   },
-  "author": "https://github.com/nikita-fuchs/ng2-semantic-ui/graphs/contributors",
+  "author": "https://github.com/nikita-fuchs/ngx-ng2-semantic-ui/graphs/contributors",
   "keywords": [
     "angular",
     "angular-components",
@@ -24,8 +24,6 @@
     "lib:test": "ng test lib --code-coverage --source-map false --progress false --watch false",
     "lib:compile:locales": "tsc --project src/behaviors/localization/tsconfig.locales.json && node ./scripts/locales",
     "lib:compile": "ng build lib && npm run lib:compile:locales",
-    "toEditor": "npm run lib:compile && cd dist && npm pack && mv *.tgz /Users/ethereumbook/Documents/DAPPS/Angular/Angular8/demo-form-sku/src/libs",
-    "toEditorLive": "npm run lib:compile && cd dist && npm pack && mv *.tgz /Users/ethereumbook/Documents/DAPPS/Angular/Angular8/demo-form-sku/src/libs && cd /Users/ethereumbook/Documents/DAPPS/Angular/Angular8/demo-form-sku/ && npm install && ng serve",
     "lib:compile:w": "ng build lib --watch",
     "lib:compile:prod": "ng build lib --prod && npm run lib:compile:locales",
     "lib:build": "npm run lib:lint && npm run lib:compile",
