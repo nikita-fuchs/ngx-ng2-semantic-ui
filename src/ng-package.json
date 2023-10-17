@@ -11,6 +11,6 @@
     "popper.js"
   ],
   "lib": {
-    "entryFile": "public.ts"
+    "entryFile": "index.ts"
   }
 }
