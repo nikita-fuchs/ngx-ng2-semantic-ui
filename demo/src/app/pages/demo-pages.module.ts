@@ -2,8 +2,6 @@ import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { RouterModule } from "@angular/router";
-// import * as SuiModule from "ng2-semantic-ui";
-// import SuiModule from "ng2-semantic-ui";
 import { SuiModule } from "ng2-semantic-ui";
 import { DemoComponentsModule } from "../components/demo-components.module";
 
