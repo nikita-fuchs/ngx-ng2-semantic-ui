@@ -59,8 +59,6 @@
     "@angular/platform-browser-dynamic": "^9.1.13",
     "@angular/router": "^9.1.13",
     "@types/extend": "^3.0.0",
-    "@types/jasmine": "~2.8.6",
-    "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
     "@types/prismjs": "~1.4.18",
     "bowser": "^1.7.2",
