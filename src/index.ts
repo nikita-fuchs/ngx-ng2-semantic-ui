@@ -6,6 +6,8 @@ export * from "./misc/public";
 
  
 //added to satisfy angular >=9 requirements, see https://stackoverflow.com/questions/60121962/this-class-is-visible-to-consumers-via-somemodule-somecomponent-but-is-not-e
+// e.g. "Unsupported private class SuiTabset"
+
 
 export * from "./collections/message/components/message"
 export * from "./collections/pagination/components/pagination"
@@ -43,9 +45,9 @@ export * from "./modules/sidebar/components/sidebar-sibling"
 export * from "./modules/tabs/components/tabset"
 export * from "./modules/tabs/directives/tab-header"
 export * from "./modules/tabs/directives/tab-content"
-
 export * from "./behaviors/internal";
 export * from "./collections/internal";
 export * from "./modules/internal";
-
 export * from "./misc/internal";
+
+export { SuiModule } from "./sui.module";
