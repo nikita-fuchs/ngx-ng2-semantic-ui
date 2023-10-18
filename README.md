@@ -1,13 +1,13 @@
 <!-- Logo -->
 <p align="center">
-  <a href="https://nikita-fuchs.github.com/ng2-semantic-ui/">
+  <a href="https://github.com/nikita-fuchs/ngx-ng2-semantic-ui">
     <img height="128" width="238" src="https://raw.githubusercontent.com/edcarroll/ng2-semantic-ui/master/demo/src/assets/logo.png">
   </a>
 </p>
 
 <!-- Name -->
 <h1 align="center">
-  <a href="https://nikita-fuchs.github.com/ng2-semantic-ui">ngx-ng2-semantic-ui</a>
+  <a href="https://github.com/nikita-fuchs/ngx-ng2-semantic-ui">ngx-ng2-semantic-ui</a>
 </h1>
 
 <!-- Badges -->
@@ -33,7 +33,13 @@ This is an intended endeavour to upgrade the awesome [ng2-semantic-ui](https://g
 | Angular   |      Package      |  Branch |
 |----------|:-------------:|------:|
 | Angular 9  |  9.x.x | angular-9 |
-
+| Angular 10  |  10.x.x | angular-10 |
+| Angular 11  |  11.x.x | angular-11 |
+| Angular 12  |  12.x.x | angular-12 |
+| Angular 13  |  13.x.x | angular-13 |
+| Angular 14  |  14.x.x | angular-14 |
+| Angular 15  |  15.x.x | angular-15 |
+| Angular 16  |  16.x.x | angular-16 |
 ## Introduction
 
 Angular and jQuery don't go together - this is the fundamental principal of this library. It provides Angular component versions of the Semantic UI modules, so that you don't need to add jQuery to your app.
@@ -42,13 +48,13 @@ Note that only Semantic UI elements that use jQuery are recreated here - those w
 
 ## Installation & Usage
 
-See the [Documentation](https://edcarroll.github.io/ng2-semantic-ui) for installation instructions and extensive examples.
+See the [Documentation](https://nikita-fuchs.github.io/ngx-ng2-semantic-ui/) for installation instructions and extensive examples.
 
 ## Dependencies
 
 This package is upgraded to each respective major Angular version. Besides successful building of the library and demo page, no extensive testing is done. 
 
-* [Angular](https://angular.io) (^10.0.0 or check corresponding branches / versions on NPM)
+* [Angular](https://angular.io) (^9.0.0 or check corresponding branches / versions on NPM)
 * [Semantic UI CSS](http://semantic-ui.com/) (^2.3.1) (jQuery is **not** required)
 
 ## Component Support
@@ -108,4 +114,4 @@ $ npm run test
 
 ## License
 
-MIT © [Edward Carroll](https://github.com/edcarroll)
+MIT © [Edward Carroll](https://github.com/edcarroll), [Nikita Fuchs](https://github.com/nikita-fuchs)
