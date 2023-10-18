@@ -23,5 +23,8 @@
       "ngx-ng2-semantic-ui/*": ["dist/*"]
     },
     "useDefineForClassFields": false
+  },
+  "angularCompilerOptions": {
+    "compilationMode": "partial"
   }
 }
