@@ -48,7 +48,7 @@ Note that only Semantic UI elements that use jQuery are recreated here - those w
 
 ## Installation & Usage
 
-See the [Documentation](https://edcarroll.github.io/ng2-semantic-ui) for installation instructions and extensive examples.
+See the [Documentation](https://nikita-fuchs.github.io/ngx-ng2-semantic-ui/) for installation instructions and extensive examples.
 
 ## Dependencies
 
