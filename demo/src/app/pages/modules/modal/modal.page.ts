@@ -3,7 +3,7 @@ import { ApiDefinition } from "../../../components/api/api.component";
 import {
     SuiModalService, ModalTemplate, TemplateModalConfig, ComponentModalConfig,
     ModalSize, SuiModal
-} from "ng2-semantic-ui";
+} from "ngx-ng2-semantic-ui";
 import { AlertModal } from "../../../modals/alert.modal";
 
 const exampleTemplateModalTemplate = `
@@ -190,7 +190,7 @@ public open(dynamicContent:string = "Example") {
 `;
 
     public componentComponent:string = `
-import {SuiModal, ComponentModalConfig, ModalSize} from "ng2-semantic-ui"
+import {SuiModal, ComponentModalConfig, ModalSize} from "ngx-ng2-semantic-ui"
 
 interface IConfirmModalContext {
     title:string;

@@ -1,5 +1,5 @@
 import { Component, OnDestroy } from "@angular/core";
-import { SuiLocalizationService } from "ng2-semantic-ui";
+import { SuiLocalizationService } from "ngx-ng2-semantic-ui";
 import locales from "ng2-semantic-ui/locales";
 
 const exampleTemplate = `
@@ -104,7 +104,7 @@ const supportedLanguages:ISupportedLanguage[] = [
 })
 export class LocalizationPage {
     public localizationCode:string = `
-import {SuiLocalizationService} from "ng2-semantic-ui";
+import {SuiLocalizationService} from "ngx-ng2-semantic-ui";
 // We'll use Spanish for this example.
 import es from "ng2-semantic-ui/locales/es";
 
@@ -123,7 +123,7 @@ export class AppComponent {
 `;
 
     public customizationCode:string = `
-import {SuiLocalizationService} from "ng2-semantic-ui";
+import {SuiLocalizationService} from "ngx-ng2-semantic-ui";
 // This example uses French.
 import fr from "ng2-semantic-ui/locales/fr";
 
