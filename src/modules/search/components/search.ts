@@ -8,7 +8,7 @@ import { ISearchLocaleValues, RecursivePartial, SuiLocalizationService } from ".
 import { SearchService } from "../services/search.service";
 import { LookupFn, FilterFn } from "../helpers/lookup-fn";
 
-export interface IResultContext<T> extends ITemplateRefContext<T> {
+interface IResultContext<T> extends ITemplateRefContext<T> {
     query:string;
 }
 
