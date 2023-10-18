@@ -3,7 +3,10 @@ import {
     Input, TemplateRef
 } from "@angular/core";
 import { ITemplateRefContext, SuiComponentFactory } from "../../../misc/util/internal";
-import { IResultContext } from "./search";
+
+export interface IResultContext<T> extends ITemplateRefContext<T> {
+    query:string;
+}
 
 // See https://github.com/Microsoft/TypeScript/issues/13449.
 const templateRef = TemplateRef;
