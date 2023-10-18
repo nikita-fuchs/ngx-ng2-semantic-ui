@@ -24,8 +24,6 @@
     "lib:test": "ng test lib --code-coverage --source-map false --progress false --watch false",
     "lib:compile:locales": "tsc --project src/behaviors/localization/tsconfig.locales.json && node ./scripts/locales",
     "lib:compile": "ng build lib && npm run lib:compile:locales",
-    "toEditor": "npm run lib:compile && cd dist && npm pack && mv *.tgz /Users/ethereumbook/Documents/DAPPS/Angular/Angular8/demo-form-sku/src/libs",
-    "toEditorLive": "npm run lib:compile && cd dist && npm pack && mv *.tgz /Users/ethereumbook/Documents/DAPPS/Angular/Angular8/demo-form-sku/src/libs && cd /Users/ethereumbook/Documents/DAPPS/Angular/Angular8/demo-form-sku/ && npm install && ng serve",
     "lib:compile:w": "ng build lib --watch",
     "lib:compile:prod": "ng build lib --configuration production && npm run lib:compile:locales",
     "lib:build": "npm run lib:lint && npm run lib:compile",

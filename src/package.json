@@ -1,15 +1,15 @@
 {
-  "name": "ng2-semantic-ui",
-  "version": "0.10.0-alpha.6",
+  "name": "ngx-ng2-semantic-ui",
+  "version": "12.0.1",
   "description": "Angular Semantic UI Components",
   "repository": {
     "type": "git",
-    "url": "https://github.com/edcarroll/ng2-semantic-ui/tree/master"
+    "url": "https://github.com/nikita-fuchs/ng2-semantic-ui"
   },
   "bugs": {
-    "url": "https://github.com/edcarroll/ng2-semantic-ui/tree/master/issues"
+    "url": "https://github.com/nikita-fuchs/ng2-semantic-ui/issues"
   },
-  "author": "https://github.com/edcarroll/ng2-semantic-ui/graphs/contributors",
+  "author": "https://github.com/nikita-fuchs/ng2-semantic-ui/graphs/contributors",
   "keywords": [
     "angular",
     "angular-components",
