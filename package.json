@@ -1,6 +1,6 @@
 {
   "name": "ngx-ng2-semantic-ui",
-  "version": "16.0.0",
+  "version": "16.0.1",
   "description": "Angular Semantic UI Components",
   "repository": {
     "type": "git",
@@ -60,11 +60,14 @@
     "@types/estree": "^1.0.0",
     "@types/extend": "^3.0.0",
     "@types/prismjs": "~1.4.18",
+    "@typescript-eslint/eslint-plugin": "5.62.0",
+    "@typescript-eslint/parser": "5.62.0",
     "bowser": "^1.7.2",
     "codelyzer": "^6.0.0",
     "core-js": "^2.5.4",
     "date-fns": "2.0.0-alpha.1",
     "element-closest": "^2.0.2",
+    "eslint": "^8.49.0",
     "extend": "^3.0.1",
     "fs-extra": "^5.0.0",
     "is-ua-webview": "^1.0.0",
