@@ -18,7 +18,6 @@
     "ui",
     "typescript"
   ],
-  ],
   "license": "MIT",
   "dependencies": {
     "bowser": "^1.7.2",
