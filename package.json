@@ -23,7 +23,7 @@
     "lib:lint": "ng lint lib",
     "lib:test": "ng test lib --code-coverage --source-map false --progress false --watch false",
     "lib:compile:locales": "tsc --project src/behaviors/localization/tsconfig.locales.json && node ./scripts/locales",
-    "lib:compile": "ng build lib && npm run lib:compile:locales",
+    "lib:compile": "ng-packagr -p ./src/ng-package.json -c tsconfig.json && npm run lib:compile:locales",
     "lib:compile:w": "ng build lib --watch",
     "lib:compile:prod": "ng build lib --configuration production && npm run lib:compile:locales",
     "lib:build": "npm run lib:lint && npm run lib:compile",
