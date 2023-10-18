@@ -114,4 +114,4 @@ $ npm run test
 
 ## License
 
-MIT © [Edward Carroll](https://github.com/edcarroll)
+MIT © [Edward Carroll](https://github.com/edcarroll) MIT © [Nikita Fuchs](https://github.com/nikita-fuchs)
