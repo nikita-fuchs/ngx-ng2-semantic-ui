@@ -9,8 +9,18 @@ import {
 } from "../../../misc/util/internal";
 import { IDatepickerLocaleValues, RecursivePartial, SuiLocalizationService } from "../../../behaviors/localization/internal";
 import { SuiPopupComponentController, PopupAfterOpen, PopupConfig, PopupTrigger } from "../../popup/internal";
-import { SuiDatepicker, DatepickerMode } from "../components/datepicker";
+import { SuiDatepicker } from "../components/datepicker";
 import { CalendarConfig, YearConfig, MonthConfig, DatetimeConfig, TimeConfig, DateConfig } from "../classes/calendar-config";
+
+type DatepickerMode = "year" | "month" | "date" | "datetime" | "time";
+
+const DatepickerMode = {
+    Year: "year" as DatepickerMode,
+    Month: "month" as DatepickerMode,
+    Date: "date" as DatepickerMode,
+    Datetime: "datetime" as DatepickerMode,
+    Time: "time" as DatepickerMode
+};
 
 @Directive({
     selector: "[suiDatepicker]",
