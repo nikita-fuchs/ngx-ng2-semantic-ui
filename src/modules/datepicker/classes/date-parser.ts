@@ -1,6 +1,16 @@
-import { DatepickerMode } from "../components/datepicker";
 import { DateFnsParser } from "../helpers/date-fns";
 import { IDatepickerLocaleValues, IDatepickerFormatsLocaleValues } from "../../../behaviors/localization/internal";
+
+
+export type DatepickerMode = "year" | "month" | "date" | "datetime" | "time";
+
+export const DatepickerMode = {
+    Year: "year" as DatepickerMode,
+    Month: "month" as DatepickerMode,
+    Date: "date" as DatepickerMode,
+    Datetime: "datetime" as DatepickerMode,
+    Time: "time" as DatepickerMode
+};
 
 export class DateParser {
     private _format:string;
