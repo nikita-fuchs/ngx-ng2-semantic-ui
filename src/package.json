@@ -28,10 +28,10 @@
     "popper.js": "^1.14.0"
   },
   "peerDependencies": {
-    "@angular/common": ">= 6.0.0",
-    "@angular/compiler": ">= 6.0.0",
-    "@angular/core": ">= 6.0.0",
-    "@angular/forms": ">= 6.0.0",
+    "@angular/common": "^16.0.0",
+    "@angular/compiler": ">= 16.0.0",
+    "@angular/core": ">= 16.0.0",
+    "@angular/forms": ">= 16.0.0",
     "rxjs": "^6.0.0"
   }
 }
