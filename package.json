@@ -34,6 +34,8 @@
     "demo:compile:prod": "ng build demo --prod",
     "demo:build": "npm run demo:compile",
     "demo:build:prod": "npm run demo:compile:prod",
+    "demo:build:ghpages": "ng build demo --prod --base-href 'https://nikita-fuchs.github.io/ngx-ng2-semantic-ui/demo/'",
+    "demo:deploy:ghpages": "npx angular-cli-ghpages --dir=demo/dist",
     "lint": "npm run lib:lint && npm run demo:lint",
     "test": "npm run lib:test",
     "build": "npm run lib:build && npm run demo:build",
